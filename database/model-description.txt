@@ -1,0 +1,14 @@
+User:
+  - username: String
+  - password: String
+
+Vent:
+  - userId: String
+  - content: String
+  - createdAt: Date
+
+Reply:
+  - ventId: String
+  - userId: String
+  - content: String
+  - createdAt: Date
